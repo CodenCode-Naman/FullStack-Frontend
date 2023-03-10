@@ -1,0 +1,13 @@
+.errorContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 150;
+    height: 100%;
+}
+
+.errorMsg {
+    margin: 12px;
+}
