@@ -1,0 +1,17 @@
+#content-container {
+  box-sizing: border-box;
+  padding: 1vw 3vw;
+}
+
+#add-btn {
+  font-size: 1.5vw;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 1vw 2vw;
+  border: 2px dotted rgb(78, 34, 198);
+  color: rgb(78, 34, 198);
+  background-color: rgb(233, 234, 241);
+  text-align: center;
+  margin: 1.5vw;
+  cursor: pointer;
+}
