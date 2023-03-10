@@ -1,0 +1,66 @@
+#modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font: 1vw;
+}
+
+#modal-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 36vw;
+  height: 14vw;
+  border-radius: 15px;
+  padding: 0.26vw 3.2vw;
+}
+
+#modal-header {
+  margin-bottom: 1vw;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+#modal-sub-header {
+  font-size: 1vw;
+  font-weight: 350;
+  margin-bottom: 0.2vw;
+}
+
+#modal-input > input {
+  border: 1px solid #c8d2fa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.2vw;
+  font-size: 1.5vw;
+  padding: 0.22vw;
+}
+
+#modal-create {
+  background-color: #7a61f6;
+  color: white;
+  width: 10vw;
+  height: 2.5vw;
+  margin-left: 1vw;
+  border-radius: 5px;
+}
+
+#modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vw;
+}
+
+#modal-delete {
+  width: 5vw;
+  padding-top: 0.6vw;
+}
