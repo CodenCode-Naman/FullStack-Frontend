@@ -1,0 +1,41 @@
+#sidebar-header {
+  background-color: #4e22c6;
+  color: #fff;
+  padding: 1vw;
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+#sidebar-content {
+  color: #b3b3b3;
+  font-size: 1.2vw;
+  font-weight: 600;
+  padding: 3vw 1vw;
+}
+
+#collection-types {
+  padding-bottom: 3vw;
+}
+
+#collection-types-header {
+  padding-bottom: 1vw;
+  cursor: pointer;
+}
+
+#collection-content > ul {
+  padding: 1vw;
+}
+
+#collection-ele {
+  color: #595959;
+  cursor: pointer;
+  margin: 1vw 0;
+}
+
+#content-type-builder {
+  font-size: 1vw;
+  color: #b3b3b3;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 1vw;
+}
