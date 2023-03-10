@@ -1,0 +1,70 @@
+#login {
+    display: flex;
+    flex-direction: row;
+}
+
+#login-img {
+    width: 75vw;
+    height: 100vh;
+    background-color: rgb(241, 243, 254);
+    padding: 10vw;
+    box-sizing: border-box;
+}
+
+#login-img > img {
+    width: 80%;
+    height: 80%;
+}
+
+#login-img > div {
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+}
+
+#login-form {
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    padding: 10vw;
+}
+
+#login-header {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+#login-inputs {
+    margin: 5vw 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-inputs > input {
+    margin: 1vw 0;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+}
+
+#login-btn {
+    margin: 1vw 0;
+    padding: 1vw;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: rgb(92, 74, 238);
+    color: white;
+    text-align: center;
+}
+
+#login-error {
+    color: red;
+    font-size: 1vw;
+    font-weight: 600;
+}
