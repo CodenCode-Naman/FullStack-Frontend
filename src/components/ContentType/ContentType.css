@@ -1,0 +1,11 @@
+#content-type {
+  display: flex;
+  justify-content: space-between;
+  color: #828282;
+  font-size: 1vw;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1vw;
+  margin: 0.6vw;
+}
